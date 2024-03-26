@@ -1,7 +1,7 @@
 package com.kidsfly.entity;
 
 public enum SectionType {
-    HERO,
-    PRODUCTS,
-    CATEGORY
+    hero,
+    products,
+    category
 }

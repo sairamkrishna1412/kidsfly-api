@@ -33,5 +33,75 @@ public class OrderItem {
     @Column(name = "unit_price")
     private BigDecimal unitPrice;
 
-    // Getters and setters
+	/**
+	 * @return the orderItemId
+	 */
+	public Integer getOrderItemId() {
+		return orderItemId;
+	}
+
+	/**
+	 * @param orderItemId the orderItemId to set
+	 */
+	public void setOrderItemId(Integer orderItemId) {
+		this.orderItemId = orderItemId;
+	}
+
+	/**
+	 * @return the order
+	 */
+	public Order getOrder() {
+		return order;
+	}
+
+	/**
+	 * @param order the order to set
+	 */
+	public void setOrder(Order order) {
+		this.order = order;
+	}
+
+	/**
+	 * @return the product
+	 */
+	public Product getProduct() {
+		return product;
+	}
+
+	/**
+	 * @param product the product to set
+	 */
+	public void setProduct(Product product) {
+		this.product = product;
+	}
+
+	/**
+	 * @return the quantity
+	 */
+	public Integer getQuantity() {
+		return quantity;
+	}
+
+	/**
+	 * @param quantity the quantity to set
+	 */
+	public void setQuantity(Integer quantity) {
+		this.quantity = quantity;
+	}
+
+	/**
+	 * @return the unitPrice
+	 */
+	public BigDecimal getUnitPrice() {
+		return unitPrice;
+	}
+
+	/**
+	 * @param unitPrice the unitPrice to set
+	 */
+	public void setUnitPrice(BigDecimal unitPrice) {
+		this.unitPrice = unitPrice;
+	}
+
+    
 }

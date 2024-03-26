@@ -33,5 +33,89 @@ public class Promotion {
     @Column(name = "valid_until")
     private Date validUntil;
 
-    // Getters and setters
+	/**
+	 * @return the couponId
+	 */
+	public Integer getCouponId() {
+		return couponId;
+	}
+
+	/**
+	 * @param couponId the couponId to set
+	 */
+	public void setCouponId(Integer couponId) {
+		this.couponId = couponId;
+	}
+
+	/**
+	 * @return the couponCode
+	 */
+	public String getCouponCode() {
+		return couponCode;
+	}
+
+	/**
+	 * @param couponCode the couponCode to set
+	 */
+	public void setCouponCode(String couponCode) {
+		this.couponCode = couponCode;
+	}
+
+	/**
+	 * @return the discountType
+	 */
+	public String getDiscountType() {
+		return discountType;
+	}
+
+	/**
+	 * @param discountType the discountType to set
+	 */
+	public void setDiscountType(String discountType) {
+		this.discountType = discountType;
+	}
+
+	/**
+	 * @return the discountAmount
+	 */
+	public BigDecimal getDiscountAmount() {
+		return discountAmount;
+	}
+
+	/**
+	 * @param discountAmount the discountAmount to set
+	 */
+	public void setDiscountAmount(BigDecimal discountAmount) {
+		this.discountAmount = discountAmount;
+	}
+
+	/**
+	 * @return the validFrom
+	 */
+	public Date getValidFrom() {
+		return validFrom;
+	}
+
+	/**
+	 * @param validFrom the validFrom to set
+	 */
+	public void setValidFrom(Date validFrom) {
+		this.validFrom = validFrom;
+	}
+
+	/**
+	 * @return the validUntil
+	 */
+	public Date getValidUntil() {
+		return validUntil;
+	}
+
+	/**
+	 * @param validUntil the validUntil to set
+	 */
+	public void setValidUntil(Date validUntil) {
+		this.validUntil = validUntil;
+	}
+
+    
 }

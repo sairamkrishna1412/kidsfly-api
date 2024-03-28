@@ -27,5 +27,59 @@ public class Cart {
     @Column(name = "quantity")
     private Integer quantity;
 
-    // Getters and setters
+	/**
+	 * @return the cartId
+	 */
+	public Integer getCartId() {
+		return cartId;
+	}
+
+	/**
+	 * @param cartId the cartId to set
+	 */
+	public void setCartId(Integer cartId) {
+		this.cartId = cartId;
+	}
+
+	/**
+	 * @return the userId
+	 */
+	public Integer getUserId() {
+		return userId;
+	}
+
+	/**
+	 * @param userId the userId to set
+	 */
+	public void setUserId(Integer userId) {
+		this.userId = userId;
+	}
+
+	/**
+	 * @return the product
+	 */
+	public Product getProduct() {
+		return product;
+	}
+
+	/**
+	 * @param product the product to set
+	 */
+	public void setProduct(Product product) {
+		this.product = product;
+	}
+
+	/**
+	 * @return the quantity
+	 */
+	public Integer getQuantity() {
+		return quantity;
+	}
+
+	/**
+	 * @param quantity the quantity to set
+	 */
+	public void setQuantity(Integer quantity) {
+		this.quantity = quantity;
+	}
 }

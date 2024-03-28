@@ -24,5 +24,47 @@ public class Category {
     @JoinColumn(name = "parent_category_id", referencedColumnName = "category_id")
     private Category parentCategory;
 
-    // Getters and setters
+	/**
+	 * @return the categoryId
+	 */
+	public Integer getCategoryId() {
+		return categoryId;
+	}
+
+	/**
+	 * @param categoryId the categoryId to set
+	 */
+	public void setCategoryId(Integer categoryId) {
+		this.categoryId = categoryId;
+	}
+
+	/**
+	 * @return the categoryName
+	 */
+	public String getCategoryName() {
+		return categoryName;
+	}
+
+	/**
+	 * @param categoryName the categoryName to set
+	 */
+	public void setCategoryName(String categoryName) {
+		this.categoryName = categoryName;
+	}
+
+	/**
+	 * @return the parentCategory
+	 */
+	public Category getParentCategory() {
+		return parentCategory;
+	}
+
+	/**
+	 * @param parentCategory the parentCategory to set
+	 */
+	public void setParentCategory(Category parentCategory) {
+		this.parentCategory = parentCategory;
+	}
+
+    
 }

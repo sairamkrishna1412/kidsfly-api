@@ -33,5 +33,75 @@ public class Order {
     @Column(name = "status")
     private String status;
 
-    // Getters and setters
+	/**
+	 * @return the orderId
+	 */
+	public Integer getOrderId() {
+		return orderId;
+	}
+
+	/**
+	 * @param orderId the orderId to set
+	 */
+	public void setOrderId(Integer orderId) {
+		this.orderId = orderId;
+	}
+
+	/**
+	 * @return the user
+	 */
+	public User getUser() {
+		return user;
+	}
+
+	/**
+	 * @param user the user to set
+	 */
+	public void setUser(User user) {
+		this.user = user;
+	}
+
+	/**
+	 * @return the orderDate
+	 */
+	public Timestamp getOrderDate() {
+		return orderDate;
+	}
+
+	/**
+	 * @param orderDate the orderDate to set
+	 */
+	public void setOrderDate(Timestamp orderDate) {
+		this.orderDate = orderDate;
+	}
+
+	/**
+	 * @return the totalAmount
+	 */
+	public BigDecimal getTotalAmount() {
+		return totalAmount;
+	}
+
+	/**
+	 * @param totalAmount the totalAmount to set
+	 */
+	public void setTotalAmount(BigDecimal totalAmount) {
+		this.totalAmount = totalAmount;
+	}
+
+	/**
+	 * @return the status
+	 */
+	public String getStatus() {
+		return status;
+	}
+
+	/**
+	 * @param status the status to set
+	 */
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
+    
 }
